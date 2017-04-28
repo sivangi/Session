@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Simple Reporter Suite">
+	<listeners>
+		<listener class-name="automation.CustomReporter" />
+	</listeners>
+
+	<test name="Simple Reporter test">
+		<classes>
+			<class name="automation.SampleTest" />
+		</classes>
+	</test>
+</suite>
